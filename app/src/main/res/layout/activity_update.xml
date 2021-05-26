@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blue">
+    <EditText
+        android:id="@+id/update_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update for Product Name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Model"
+        android:id="@+id/updatemodel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Quantity"
+        android:id="@+id/updatequantity"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update price to be sold at"
+        android:id="@+id/updateto_be_sold_at"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update product purchased from"
+        android:id="@+id/updatepurchased_from"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New purchased rate"
+        android:id="@+id/updatepurchased_rate"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="352dp">
+
+        <Button
+            android:id="@+id/updatedetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="056dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginLeft="273dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="239dp"
+            android:background="@drawable/rounded_button"
+            android:text="update details" />
+    </RelativeLayout>
+
+</LinearLayout>
